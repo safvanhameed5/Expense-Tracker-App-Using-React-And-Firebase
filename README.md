@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# TrackMyExpense
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TrackMyExpense is a simple expense tracker app built with React and Firebase, allowing users to manage their income and expenses conveniently. The app enables users to sign in with their Google account, add income and expenses, and track their balance along with expenses and incomes separately.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+To get started with TrackMyExpense, follow these steps:
 
-### `npm start`
+1. Clone the repository:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+git clone https://github.com/your-username/track-my-expense.git
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Navigate into the project directory:
 
-### `npm test`
+```bash
+cd track-my-expense
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install dependencies:
 
-### `npm run build`
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Firebase Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+TrackMyExpense utilizes Firebase for authentication and Firestore for data storage. Follow these steps to set up Firebase for the project:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Go to the [Firebase Console](https://console.firebase.google.com/).
 
-### `npm run eject`
+2. Create a new project.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Enable Google authentication in the Authentication section.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Create a Firestore database in the Database section.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Initialize Firebase in your project by providing the Firebase config. You can find this in your Firebase project settings.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+1. Start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Open your browser and navigate to `http://localhost:3000`.
 
-### Code Splitting
+3. Sign in with your Google account.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Start adding your income and expenses to track your finances.
