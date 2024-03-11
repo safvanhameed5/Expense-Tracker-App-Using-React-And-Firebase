@@ -1,4 +1,4 @@
-# TrackMyExpense
+# Expense-Tracker-App-Using-React-And-Firebase
 
 TrackMyExpense is a simple expense tracker app built with React and Firebase, allowing users to manage their income and expenses conveniently. The app enables users to sign in with their Google account, add income and expenses, and track their balance along with expenses and incomes separately.
 
